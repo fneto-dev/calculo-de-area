@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>POC - Formas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+</head>
+<body>    
+    
+    <section class="section">
+
+        <div class="container">
+            <div class="field">
+                <label class="label is-small">Tamanho Bloco</label>
+                <div class="control">
+                    <input class="input is-small" id="menu-area-bloco" type="number" placeholder="Bloco" />
+                </div>
+            </div>
+            
+            <div class="field">
+                <label class="label is-small">Largura</label>
+                <div class="control">
+                    <input class="input  is-small" id="menu-area-largura" type="text" placeholder="Largura" />
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label is-small">Altura</label>
+                <div class="control">
+                    <input class="input  is-small" id="menu-area-altura" type="text" placeholder="Altura" />
+                </div>
+            </div>
+
+            <div class="field is-grouped">
+                <p class="control">
+                    <a href="#" id="menu-acoes-definir" class="button is-primary">Definir área</a>
+                </p>
+            </div>
+
+            <div id="totalizador">Area Ocupada: <span id="totalizador-total"></span></div> 
+            
+            <section id="area-trabalho">
+                <div id="forma" class="forma has-background-grey-lighter"></div>
+            </section>
+
+            <div class="field is-grouped mt-2">
+                <p class="control">
+                    <a href="#" id="menu-acoes-ocupar" class="button is-link is-small">Ocupar</a>
+                </p>
+                <p class="control">
+                    <a href="#" id="menu-acoes-desocupar" class="button is-link is-small">Desocupar</a>
+                </p>
+            </div>        
+        </div>
+    </section>  
+
+    <script src='./main.js'></script>
+</body>
+</html>

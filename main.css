@@ -1,0 +1,15 @@
+#area-trabalho {
+    overflow-x: auto;
+}
+
+.bloco {    
+    margin: 0px;
+    outline: 1px dotted darkgrey;
+    float: left;
+    cursor: pointer;
+}
+
+.forma {
+    margin-top: 10px;
+    
+}
