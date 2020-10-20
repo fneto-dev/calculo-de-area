@@ -1,0 +1,12 @@
+{
+  "name": "calculo-de-area",
+  "version": "1.0.0",
+  "description": "Arquitetura - Cálculo de Área",
+  "scripts": {
+    "start": "serve",
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
+  },
+  "author": "Francisco Neto"
+}
