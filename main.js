@@ -101,7 +101,7 @@ this.inicializar = function() {
     document.querySelector('#menu-acoes-desocupar').addEventListener('click', desocupar);
 
     if (navigator.userAgent.toLowerCase().match(/mobile/i)) {
-        document.querySelector("#menu-area-bloco").value = 50
+        document.querySelector("#menu-area-bloco").value = 45
         
     } else {
         document.querySelector("#menu-area-bloco").value = 100
